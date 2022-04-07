@@ -30,6 +30,7 @@ namespace CRUDWithEntityHW.Controllers
             return View();
         }
 
+
         [HttpPost]
         public IActionResult Create(Admin admin)
         {
